@@ -22,4 +22,5 @@ urlpatterns = [
 
     # Adicionar arquivo de urls por aplicativo
     path('accounts/', include('accounts.urls')),
+    path('homepage/', include('homepage.urls')),
 ]
