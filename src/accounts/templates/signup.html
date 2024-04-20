@@ -8,6 +8,13 @@
 </head>
 <body>
     <h2>Cadastro</h2>
+
+    <!-- Botão para ir para a página de login -->
+    <a href="{% url 'home' %}"><button>Homepage</button></a>
+
+    <!-- Botão para ir para a página de login -->
+    <a href="{% url 'login' %}"><button>Login</button></a> 
+
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}

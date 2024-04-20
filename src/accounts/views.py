@@ -6,6 +6,9 @@ from django.shortcuts import render, redirect
 from .forms import UserForm, LoginForm
 # Importar as models (tabelas)
 from .models import User
+# Importar configurações para Json e HTTP
+from django.http import JsonResponse
+import json
 
 def signup(request):
 

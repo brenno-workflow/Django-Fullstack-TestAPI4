@@ -6,6 +6,14 @@
     <title>Home Page</title>
 </head>
 <body>
+    <h1>Curriculum42!</h1>
+
+    <!-- Botão para ir para a página de login -->
+    <a href="{% url 'login' %}"><button>Login</button></a>
+    
+    <!-- Botão para ir para a página de cadastro -->
+    <a href="{% url 'signup' %}"><button>Sign Up</button></a>
+
     <h1>Informações</h1>
     <p>{{ content.information }}</p>
 
